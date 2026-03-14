@@ -35,6 +35,7 @@ The calculator supports the following functionalities:
 29. Combination 
 30. Prime number check 
 31. LCM 
-32. HCF 
+32. HCF
+    
 The calculator can also handle some exceptional cases, simultaneously providing appropriate 
 output statements. 
