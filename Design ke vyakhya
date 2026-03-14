@@ -1,0 +1,22 @@
+DESIGN APPROACH: 
+
+1. The program is menu driven, by the use of switch case statements. This facilitates the 
+user-friendly input taking nature of the program. 
+2. Modularity is implemented by the introduction and use of the mathematical 
+functionalities as functions/methods, i.e., each function has a different setup in the 
+program, thereby assisting code check and enhancing appeal and code maintainability. 
+3. Appropriate input types have been used, like for addition, the user is asked for multiple 
+inputs, if he/she wishes to add many numbers together. 
+4. For intense mathematical computation, like in trigonometric functions, Taylor series has 
+been helpful in computing the said approximate results.  
+5. In calculations involving multiple iterations, check variables have been implemented 
+from Newton-Raphson method, to limit the looping process, while simultaneously 
+conserving the approximations. 
+6. Many possibilities of invalid inputs and exceptions have been handled in the code, e.g.: 
+division by zero in division function. 
+7. It has been tried to reach a good level of approximation, considering the use of Taylor 
+series, which returns the values, not exact but approximated. Some convergence-based 
+conditions and logic have been used to prevent extreme divergence of the series, 
+especially at extreme end points. 
+8. The use of functions built within the program has been maximised, even if they were 
+needed in other methods within the program.
