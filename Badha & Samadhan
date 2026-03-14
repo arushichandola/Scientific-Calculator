@@ -1,0 +1,26 @@
+CHALLENGES FACED AND SOLUTIONS: 
+ 
+1. For computing trigonometric functions, without the use of Math library, Taylor series and Leibniz series was used, which provided the 
+approximate solutions for majority of the functions. 
+2. For some functions like the inverse tan function, the series logic which was bring used, 
+somehow didn’t provide the estimated result, so for this and other such functionalities, 
+other functions were referred to. That is to say, other functions were called in such 
+functions, which then were related together by mathematical identities or equations and 
+then coded. 
+3. It was observed in quite some functions (e.g. squareroot) that for estimation, the loop 
+progressed almost infinite times and no appealing output was obtained. For this, a 
+check variable was introduced, which compares 2 simultaneous the values for the 
+return variable, and if a very insignificant difference is found, it breaks the loop. 
+4. Taylor series approximations required high looping counts for accuracy, so the end 
+values for looping variables for core Taylor equations, were risen up to 90000. 
+5. In power function, negative values had to be handled separately, as the loop’s ending 
+value changed and the value is to be reciprocated. 
+6. In some series, the signs of consecutive elements change, so a new variable sign was 
+also introduced which was multiplied with terms according to the condition provided. 
+7. In cos and sine, the values had to be restricted within a specific range for correct 
+processing. 
+8. In some parts of the program, when error occurred, appropriate statements were 
+printed, however since nothing was returned error occurred. For this, return 
+Double.NaN;, was used. 
+9. In logarithmic, the negative reverse of value in function has been used which allowed the 
+Taylor series to converge faster, which otherwise was taking quite some time duration.
