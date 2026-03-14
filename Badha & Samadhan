@@ -24,3 +24,8 @@ printed, however since nothing was returned error occurred. For this, return
 Double.NaN;, was used. 
 9. In logarithmic, the negative reverse of value in function has been used which allowed the 
 Taylor series to converge faster, which otherwise was taking quite some time duration.
+
+
+However, there might still be diversions in program outputs from real accurate answers, due to 
+the approximate nature of formulae used, as well as their implementation methods. This can be 
+improved upon by exploring better methods of addressing the issues or other such ways. 
